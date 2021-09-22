@@ -1,221 +1,231 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
-MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ce57d2f4763904071de778e3f6fe097f/jetified-koin-androidx-viewmodel-2.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [org.koin:koin-androidx-scope:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/838677ac9b62ee5abc8039b662f12de2/jetified-koin-androidx-scope-2.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/aa9e18d12c5afb35dcd731ed91706877/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/c4c8bb3938adedf41fcbce93dc8c2c77/jetified-core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f2ba21a9638e5fd2269785d55a9b0d33/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/59a0d9b493c71bd63175f5da6c378b5c/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/1aa0b883c2d30eddd2d4aed91384585d/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [org.koin:koin-android:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/e66288e600be8f3a689d1b2f831f6d1a/jetified-koin-android-2.0.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/74841cf7be0aabe3bc6106890781041b/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/466201827931c549deeac2c2a8ff8bbc/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.room:room-ktx:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/17cf29ab884e3865895871e6431f0e01/jetified-room-ktx-2.2.5/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/7db156551c961cb49e33f33428eaed3f/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
-MERGED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/7f9ad5180c777344bfc5ff0959cc0d5f/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b5d39c5912b6a4426597ef319d53c89e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f65278b829ca7ccd83fe7d8d65a02e1f/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4c2bcbc5d73f9606cbdeace02734127d/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/a3fba8e35fcf2e539a091f5247dd4330/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/8b8d029c1f3271eac3c950dc701456cc/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/6a3f75f560a45349452bf395d4d1bdfb/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/12c1e856d818e01297aeb52978a31b56/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/aad3d2a2977fc7caba81731c92ed8879/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ae6b3123e24419355b3ea749c5dee336/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/56233828eb86ee156bdfc6be646a69c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f4571e40b4d4a10d119d960d1f04dcbc/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4b9870924e6a59106ae571b6074fa673/core-1.2.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/64bcf7bb19a26c044f2e715ee12b1b86/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9b332743655dfa3f091b66757a972e47/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9e05b143f03cd1ca826323cc849043b3/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ef25c544400d79b1297f9cef6d077794/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/485b7c2dd347427345aee24be6b8def4/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/e5bdbb0145f8c3080c51d0fe324229ee/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/58e4cdce9f252419a8763758c6b954da/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9ca30d54c404f267761e182fb421bbca/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/805063c8041b63293340b96c5955acf8/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ca84d5b33fb6d49133a3e032eec7436e/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/43ceda03c54fe42d9fe3b79e7c939d21/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [io.insert-koin:koin-android:3.1.2] /Users/sanda_albrecht/.gradle/caches/transforms-3/36ec5e15e0fddf9b903e17c43e695010/transformed/jetified-koin-android-3.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/33b7cf01c557c257a6fdb5da8bda3dec/transformed/jetified-fragment-ktx-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/9bffb0416618403237e805c597f77862/transformed/jetified-activity-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/aec2c0afb6fcdb18737b437ba9fa02a8/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/4cbefc44e2a615a6dfd05ed253d73de8/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/bd00542f30c126817e2050bf4a5e9235/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/00be27df35895ee94484a3c52783570e/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/c757cf49be54a9c3d3185c7a89d6de81/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/1f32e1a2627ee7417c8e63fffba2f220/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/af088129b264e38e18a4c824e5932518/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/035ab19c73d095ea2daedd81c55d2148/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/7998826f34582ec5c31c623a2bf5c788/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/c19eda79f2bcd51443dfff1dd7e5ecf0/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/42274d09279a4def4b45e96c37e3d6b4/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/beee20d34a4b5d1150c31afbf23f3300/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/5a29c3bdbac905e54ac4439d7decbad9/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/sanda_albrecht/.gradle/caches/transforms-3/6f400cf71312b4d19b880072fe153953/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/sanda_albrecht/.gradle/caches/transforms-3/c6ed5fdb9fba19db1e6c2ec736d2d97b/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/fcc21e71c545333ba196b47682c8538b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/88c46646fdf085967cb1a077341d6152/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/758b2b84225249de14dc34bece649ed8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/353d4fd14e31b41f6d8c00c8ca626e7f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ed9eddb6528fc544fa447557d87463de/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/4681861cb92d26b9cf974b82f155269c/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/df0cfb53479545f1b5b5dc5cb18cbea4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/aab93a5eedcb1584728f5c6203584b0f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/6602d1bec71f40e43d838be8a797d212/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/348f6d52d990d4fb4fcc5abc17a1cdcd/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/95277687e2e58903d7a1da2245ae6ad0/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/00d4ef47cd50847a8b9eec63c7b5c077/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/a10b9846b9ed8d98ba2843a0356ae3bf/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/82d01ea18c2dc135c82880c2782fb66a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/3ebfb6c725939f6f0eb17342099c8f09/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/0aa1a2ba89a069fbdf0def778baf15a8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/5bf9f8a386d7d9fd23748057b9879e6c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/ea4386daf552c300f5cf34e121728c3a/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/c3f2c3bd5ebcd3bee67e8f4c630f2adb/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/47a67f589c963a5ce56c190a1f042f90/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/a293be790c762e9bf2bf1ded83306ac8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/efb5ab150b0e2afb73890aef5887c8ac/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:3:3-38
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:3:3-38
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:5:3-65
+ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:5:3-65
 	android:name
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:5:20-62
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:5:20-62
 application
-ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:7:3-24:17
-MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ce57d2f4763904071de778e3f6fe097f/jetified-koin-androidx-viewmodel-2.0.1/AndroidManifest.xml:7:5-20
-MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ce57d2f4763904071de778e3f6fe097f/jetified-koin-androidx-viewmodel-2.0.1/AndroidManifest.xml:7:5-20
-MERGED from [org.koin:koin-androidx-scope:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/838677ac9b62ee5abc8039b662f12de2/jetified-koin-androidx-scope-2.0.1/AndroidManifest.xml:7:5-20
-MERGED from [org.koin:koin-androidx-scope:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/838677ac9b62ee5abc8039b662f12de2/jetified-koin-androidx-scope-2.0.1/AndroidManifest.xml:7:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f2ba21a9638e5fd2269785d55a9b0d33/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f2ba21a9638e5fd2269785d55a9b0d33/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
-MERGED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f65278b829ca7ccd83fe7d8d65a02e1f/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f65278b829ca7ccd83fe7d8d65a02e1f/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.core:core:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4b9870924e6a59106ae571b6074fa673/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4b9870924e6a59106ae571b6074fa673/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/e5bdbb0145f8c3080c51d0fe324229ee/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/e5bdbb0145f8c3080c51d0fe324229ee/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:7:3-24:17
+MERGED from [io.insert-koin:koin-android:3.1.2] /Users/sanda_albrecht/.gradle/caches/transforms-3/36ec5e15e0fddf9b903e17c43e695010/transformed/jetified-koin-android-3.1.2/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:3.1.2] /Users/sanda_albrecht/.gradle/caches/transforms-3/36ec5e15e0fddf9b903e17c43e695010/transformed/jetified-koin-android-3.1.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/c757cf49be54a9c3d3185c7a89d6de81/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/c757cf49be54a9c3d3185c7a89d6de81/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/5a29c3bdbac905e54ac4439d7decbad9/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/5a29c3bdbac905e54ac4439d7decbad9/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/348f6d52d990d4fb4fcc5abc17a1cdcd/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/348f6d52d990d4fb4fcc5abc17a1cdcd/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/5bf9f8a386d7d9fd23748057b9879e6c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/5bf9f8a386d7d9fd23748057b9879e6c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4b9870924e6a59106ae571b6074fa673/core-1.2.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/348f6d52d990d4fb4fcc5abc17a1cdcd/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:13:5-31
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:13:5-31
 	android:label
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:11:5-37
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:11:5-37
 	android:roundIcon
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:12:5-50
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:12:5-50
 	android:icon
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:10:5-39
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:10:5-39
 	android:allowBackup
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:9:5-31
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:9:5-31
 	android:theme
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:14:5-36
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:14:5-36
 	android:name
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:8:5-51
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:8:5-51
 activity#com.raywenderlich.android.ui.home.HomeActivity
-ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:15:5-23:16
+ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:15:5-23:16
 	android:screenOrientation
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:17:7-43
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:17:7-43
 	android:name
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:16:7-43
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:16:7-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:18:7-22:23
+ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:18:7-22:23
 action#android.intent.action.MAIN
-ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:19:9-61
+ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:19:9-61
 	android:name
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:19:17-58
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:19:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:21:9-69
+ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:21:9-69
 	android:name
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml:21:19-66
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml:21:19-66
 uses-sdk
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ce57d2f4763904071de778e3f6fe097f/jetified-koin-androidx-viewmodel-2.0.1/AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ce57d2f4763904071de778e3f6fe097f/jetified-koin-androidx-viewmodel-2.0.1/AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-androidx-scope:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/838677ac9b62ee5abc8039b662f12de2/jetified-koin-androidx-scope-2.0.1/AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-androidx-scope:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/838677ac9b62ee5abc8039b662f12de2/jetified-koin-androidx-scope-2.0.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/aa9e18d12c5afb35dcd731ed91706877/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/aa9e18d12c5afb35dcd731ed91706877/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/c4c8bb3938adedf41fcbce93dc8c2c77/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/c4c8bb3938adedf41fcbce93dc8c2c77/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f2ba21a9638e5fd2269785d55a9b0d33/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f2ba21a9638e5fd2269785d55a9b0d33/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/59a0d9b493c71bd63175f5da6c378b5c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/59a0d9b493c71bd63175f5da6c378b5c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/1aa0b883c2d30eddd2d4aed91384585d/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/1aa0b883c2d30eddd2d4aed91384585d/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [org.koin:koin-android:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/e66288e600be8f3a689d1b2f831f6d1a/jetified-koin-android-2.0.1/AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-android:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/e66288e600be8f3a689d1b2f831f6d1a/jetified-koin-android-2.0.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/74841cf7be0aabe3bc6106890781041b/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/74841cf7be0aabe3bc6106890781041b/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/466201827931c549deeac2c2a8ff8bbc/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/466201827931c549deeac2c2a8ff8bbc/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-ktx:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/17cf29ab884e3865895871e6431f0e01/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-ktx:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/17cf29ab884e3865895871e6431f0e01/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/7db156551c961cb49e33f33428eaed3f/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/7db156551c961cb49e33f33428eaed3f/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/7f9ad5180c777344bfc5ff0959cc0d5f/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/7f9ad5180c777344bfc5ff0959cc0d5f/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b5d39c5912b6a4426597ef319d53c89e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b5d39c5912b6a4426597ef319d53c89e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f65278b829ca7ccd83fe7d8d65a02e1f/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f65278b829ca7ccd83fe7d8d65a02e1f/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4c2bcbc5d73f9606cbdeace02734127d/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4c2bcbc5d73f9606cbdeace02734127d/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/a3fba8e35fcf2e539a091f5247dd4330/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/a3fba8e35fcf2e539a091f5247dd4330/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/8b8d029c1f3271eac3c950dc701456cc/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/8b8d029c1f3271eac3c950dc701456cc/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/6a3f75f560a45349452bf395d4d1bdfb/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/6a3f75f560a45349452bf395d4d1bdfb/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/12c1e856d818e01297aeb52978a31b56/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/12c1e856d818e01297aeb52978a31b56/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/aad3d2a2977fc7caba81731c92ed8879/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/aad3d2a2977fc7caba81731c92ed8879/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ae6b3123e24419355b3ea749c5dee336/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ae6b3123e24419355b3ea749c5dee336/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/56233828eb86ee156bdfc6be646a69c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/56233828eb86ee156bdfc6be646a69c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f4571e40b4d4a10d119d960d1f04dcbc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/f4571e40b4d4a10d119d960d1f04dcbc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4b9870924e6a59106ae571b6074fa673/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/4b9870924e6a59106ae571b6074fa673/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/64bcf7bb19a26c044f2e715ee12b1b86/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/64bcf7bb19a26c044f2e715ee12b1b86/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9b332743655dfa3f091b66757a972e47/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9b332743655dfa3f091b66757a972e47/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9e05b143f03cd1ca826323cc849043b3/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9e05b143f03cd1ca826323cc849043b3/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ef25c544400d79b1297f9cef6d077794/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ef25c544400d79b1297f9cef6d077794/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/485b7c2dd347427345aee24be6b8def4/sqlite-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/485b7c2dd347427345aee24be6b8def4/sqlite-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/e5bdbb0145f8c3080c51d0fe324229ee/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/e5bdbb0145f8c3080c51d0fe324229ee/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/58e4cdce9f252419a8763758c6b954da/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/58e4cdce9f252419a8763758c6b954da/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9ca30d54c404f267761e182fb421bbca/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/9ca30d54c404f267761e182fb421bbca/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/805063c8041b63293340b96c5955acf8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/805063c8041b63293340b96c5955acf8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ca84d5b33fb6d49133a3e032eec7436e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/ca84d5b33fb6d49133a3e032eec7436e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/43ceda03c54fe42d9fe3b79e7c939d21/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/43ceda03c54fe42d9fe3b79e7c939d21/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+MERGED from [io.insert-koin:koin-android:3.1.2] /Users/sanda_albrecht/.gradle/caches/transforms-3/36ec5e15e0fddf9b903e17c43e695010/transformed/jetified-koin-android-3.1.2/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.1.2] /Users/sanda_albrecht/.gradle/caches/transforms-3/36ec5e15e0fddf9b903e17c43e695010/transformed/jetified-koin-android-3.1.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/33b7cf01c557c257a6fdb5da8bda3dec/transformed/jetified-fragment-ktx-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/33b7cf01c557c257a6fdb5da8bda3dec/transformed/jetified-fragment-ktx-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/9bffb0416618403237e805c597f77862/transformed/jetified-activity-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/9bffb0416618403237e805c597f77862/transformed/jetified-activity-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/aec2c0afb6fcdb18737b437ba9fa02a8/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/aec2c0afb6fcdb18737b437ba9fa02a8/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/4cbefc44e2a615a6dfd05ed253d73de8/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/4cbefc44e2a615a6dfd05ed253d73de8/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/bd00542f30c126817e2050bf4a5e9235/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/bd00542f30c126817e2050bf4a5e9235/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/00be27df35895ee94484a3c52783570e/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/00be27df35895ee94484a3c52783570e/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/c757cf49be54a9c3d3185c7a89d6de81/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/c757cf49be54a9c3d3185c7a89d6de81/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/1f32e1a2627ee7417c8e63fffba2f220/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/1f32e1a2627ee7417c8e63fffba2f220/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/af088129b264e38e18a4c824e5932518/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/af088129b264e38e18a4c824e5932518/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/035ab19c73d095ea2daedd81c55d2148/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/035ab19c73d095ea2daedd81c55d2148/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/7998826f34582ec5c31c623a2bf5c788/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/7998826f34582ec5c31c623a2bf5c788/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/c19eda79f2bcd51443dfff1dd7e5ecf0/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/c19eda79f2bcd51443dfff1dd7e5ecf0/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/42274d09279a4def4b45e96c37e3d6b4/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/42274d09279a4def4b45e96c37e3d6b4/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/beee20d34a4b5d1150c31afbf23f3300/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/beee20d34a4b5d1150c31afbf23f3300/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/5a29c3bdbac905e54ac4439d7decbad9/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/5a29c3bdbac905e54ac4439d7decbad9/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/sanda_albrecht/.gradle/caches/transforms-3/6f400cf71312b4d19b880072fe153953/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/sanda_albrecht/.gradle/caches/transforms-3/6f400cf71312b4d19b880072fe153953/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/sanda_albrecht/.gradle/caches/transforms-3/c6ed5fdb9fba19db1e6c2ec736d2d97b/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/sanda_albrecht/.gradle/caches/transforms-3/c6ed5fdb9fba19db1e6c2ec736d2d97b/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/fcc21e71c545333ba196b47682c8538b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/fcc21e71c545333ba196b47682c8538b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/88c46646fdf085967cb1a077341d6152/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/88c46646fdf085967cb1a077341d6152/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/758b2b84225249de14dc34bece649ed8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/758b2b84225249de14dc34bece649ed8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/353d4fd14e31b41f6d8c00c8ca626e7f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/353d4fd14e31b41f6d8c00c8ca626e7f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ed9eddb6528fc544fa447557d87463de/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ed9eddb6528fc544fa447557d87463de/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/4681861cb92d26b9cf974b82f155269c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/4681861cb92d26b9cf974b82f155269c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/df0cfb53479545f1b5b5dc5cb18cbea4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/df0cfb53479545f1b5b5dc5cb18cbea4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/aab93a5eedcb1584728f5c6203584b0f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/aab93a5eedcb1584728f5c6203584b0f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/6602d1bec71f40e43d838be8a797d212/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/6602d1bec71f40e43d838be8a797d212/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/348f6d52d990d4fb4fcc5abc17a1cdcd/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/348f6d52d990d4fb4fcc5abc17a1cdcd/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/95277687e2e58903d7a1da2245ae6ad0/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/95277687e2e58903d7a1da2245ae6ad0/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/00d4ef47cd50847a8b9eec63c7b5c077/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/00d4ef47cd50847a8b9eec63c7b5c077/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/a10b9846b9ed8d98ba2843a0356ae3bf/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/a10b9846b9ed8d98ba2843a0356ae3bf/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/82d01ea18c2dc135c82880c2782fb66a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/82d01ea18c2dc135c82880c2782fb66a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/3ebfb6c725939f6f0eb17342099c8f09/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/3ebfb6c725939f6f0eb17342099c8f09/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/0aa1a2ba89a069fbdf0def778baf15a8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/0aa1a2ba89a069fbdf0def778baf15a8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/5bf9f8a386d7d9fd23748057b9879e6c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/5bf9f8a386d7d9fd23748057b9879e6c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/ea4386daf552c300f5cf34e121728c3a/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/ea4386daf552c300f5cf34e121728c3a/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/c3f2c3bd5ebcd3bee67e8f4c630f2adb/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/sanda_albrecht/.gradle/caches/transforms-3/c3f2c3bd5ebcd3bee67e8f4c630f2adb/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/47a67f589c963a5ce56c190a1f042f90/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/47a67f589c963a5ce56c190a1f042f90/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/a293be790c762e9bf2bf1ded83306ac8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/a293be790c762e9bf2bf1ded83306ac8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/efb5ab150b0e2afb73890aef5887c8ac/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/efb5ab150b0e2afb73890aef5887c8ac/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sanda_albrecht/Downloads/materials/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sanda_albrecht/Documents/AndroidStudioProjects/Sunzoid-Starter/app/src/main/AndroidManifest.xml
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/68bcec8590b54045e382da70a6875f19/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sanda_albrecht/.gradle/caches/transforms-3/a91f441e9e405e330226760012a8c260/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+ADDED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
 	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
 	android:name
-		ADDED from [androidx.room:room-runtime:2.2.5] /Users/sanda_albrecht/.gradle/caches/transforms-2/files-2.1/b15b54b59097a08dc41eea33de8e5e3f/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/sanda_albrecht/.gradle/caches/transforms-3/ac7ff69e7d5867c30d306a6ef7c68b1b/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74

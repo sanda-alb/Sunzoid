@@ -1,6 +1,7 @@
 package com.raywenderlich.android.data.db.dao;
 
 import android.database.Cursor;
+import android.os.CancellationSignal;
 import androidx.room.CoroutinesRoom;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
@@ -12,11 +13,13 @@ import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import com.raywenderlich.android.data.db.entities.DbForecast;
 import com.raywenderlich.android.data.db.entities.DbLocationDetails;
+import java.lang.Class;
 import java.lang.Exception;
 import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 import kotlin.Unit;
@@ -125,7 +128,7 @@ public final class ForecastDao_Impl implements ForecastDao {
 
   @Override
   public Object insertLocationDetails(final DbLocationDetails locationDetails,
-      final Continuation<? super Unit> p1) {
+      final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -138,12 +141,12 @@ public final class ForecastDao_Impl implements ForecastDao {
           __db.endTransaction();
         }
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
   public Object insertAllForecast(final List<DbForecast> forecasts,
-      final Continuation<? super Unit> p1) {
+      final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -156,33 +159,33 @@ public final class ForecastDao_Impl implements ForecastDao {
           __db.endTransaction();
         }
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
   public Object updateLocationDetails(final DbLocationDetails locationDetails,
-      final Continuation<? super Unit> p1) {
+      final Continuation<? super Unit> continuation) {
     return RoomDatabaseKt.withTransaction(__db, new Function1<Continuation<? super Unit>, Object>() {
       @Override
       public Object invoke(Continuation<? super Unit> __cont) {
         return ForecastDao.DefaultImpls.updateLocationDetails(ForecastDao_Impl.this, locationDetails, __cont);
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
   public Object updateForecasts(final List<DbForecast> forecasts,
-      final Continuation<? super Unit> p1) {
+      final Continuation<? super Unit> continuation) {
     return RoomDatabaseKt.withTransaction(__db, new Function1<Continuation<? super Unit>, Object>() {
       @Override
       public Object invoke(Continuation<? super Unit> __cont) {
         return ForecastDao.DefaultImpls.updateForecasts(ForecastDao_Impl.this, forecasts, __cont);
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
-  public Object clearLocationDetails(final Continuation<? super Unit> p0) {
+  public Object clearLocationDetails(final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -197,11 +200,11 @@ public final class ForecastDao_Impl implements ForecastDao {
           __preparedStmtOfClearLocationDetails.release(_stmt);
         }
       }
-    }, p0);
+    }, continuation);
   }
 
   @Override
-  public Object clearForecasts(final Continuation<? super Unit> p0) {
+  public Object clearForecasts(final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -216,14 +219,15 @@ public final class ForecastDao_Impl implements ForecastDao {
           __preparedStmtOfClearForecasts.release(_stmt);
         }
       }
-    }, p0);
+    }, continuation);
   }
 
   @Override
-  public Object getLocationDetails(final Continuation<? super DbLocationDetails> p0) {
+  public Object getLocationDetails(final Continuation<? super DbLocationDetails> continuation) {
     final String _sql = "SELECT * FROM location_details_table";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
-    return CoroutinesRoom.execute(__db, false, new Callable<DbLocationDetails>() {
+    final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
+    return CoroutinesRoom.execute(__db, false, _cancellationSignal, new Callable<DbLocationDetails>() {
       @Override
       public DbLocationDetails call() throws Exception {
         final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
@@ -236,13 +240,29 @@ public final class ForecastDao_Impl implements ForecastDao {
           final DbLocationDetails _result;
           if(_cursor.moveToFirst()) {
             final String _tmpTime;
-            _tmpTime = _cursor.getString(_cursorIndexOfTime);
+            if (_cursor.isNull(_cursorIndexOfTime)) {
+              _tmpTime = null;
+            } else {
+              _tmpTime = _cursor.getString(_cursorIndexOfTime);
+            }
             final String _tmpSunrise;
-            _tmpSunrise = _cursor.getString(_cursorIndexOfSunrise);
+            if (_cursor.isNull(_cursorIndexOfSunrise)) {
+              _tmpSunrise = null;
+            } else {
+              _tmpSunrise = _cursor.getString(_cursorIndexOfSunrise);
+            }
             final String _tmpSunset;
-            _tmpSunset = _cursor.getString(_cursorIndexOfSunset);
+            if (_cursor.isNull(_cursorIndexOfSunset)) {
+              _tmpSunset = null;
+            } else {
+              _tmpSunset = _cursor.getString(_cursorIndexOfSunset);
+            }
             final String _tmpTitle;
-            _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            if (_cursor.isNull(_cursorIndexOfTitle)) {
+              _tmpTitle = null;
+            } else {
+              _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            }
             final int _tmpId;
             _tmpId = _cursor.getInt(_cursorIndexOfId);
             _result = new DbLocationDetails(_tmpTime,_tmpSunrise,_tmpSunset,_tmpTitle,_tmpId);
@@ -255,6 +275,10 @@ public final class ForecastDao_Impl implements ForecastDao {
           _statement.release();
         }
       }
-    }, p0);
+    }, continuation);
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }
