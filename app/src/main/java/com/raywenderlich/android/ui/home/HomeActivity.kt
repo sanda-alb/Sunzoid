@@ -33,6 +33,7 @@ package com.raywenderlich.android.ui.home
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
+import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager.HORIZONTAL
 import androidx.recyclerview.widget.LinearSnapHelper
@@ -59,6 +60,7 @@ class HomeActivity : AppCompatActivity() {
     setContentView(R.layout.activity_home)
 
     initUi()
+    homeViewModel.fetchLocationDetails(851128)
   }
 
   private fun initUi() {
@@ -96,6 +98,9 @@ class HomeActivity : AppCompatActivity() {
   }
 
   private fun initObservers() {
+    homeViewModel.forecasts.observe(this, Observer {
+      forecastAdapter.setData(it)
+    })
   }
 
   private fun onLocationClick(locationViewState: LocationViewState) {

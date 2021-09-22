@@ -19,12 +19,14 @@ import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 import kotlin.Unit;
 import kotlin.coroutines.Continuation;
 import kotlin.jvm.functions.Function1;
+import kotlinx.coroutines.flow.Flow;
 
 @SuppressWarnings({"unchecked", "deprecation"})
 public final class ForecastDao_Impl implements ForecastDao {
@@ -276,6 +278,89 @@ public final class ForecastDao_Impl implements ForecastDao {
         }
       }
     }, continuation);
+  }
+
+  @Override
+  public Flow<List<DbForecast>> getForecasts() {
+    final String _sql = "SELECT * FROM forecasts_table";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
+    return CoroutinesRoom.createFlow(__db, false, new String[]{"forecasts_table"}, new Callable<List<DbForecast>>() {
+      @Override
+      public List<DbForecast> call() throws Exception {
+        final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+        try {
+          final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+          final int _cursorIndexOfState = CursorUtil.getColumnIndexOrThrow(_cursor, "state");
+          final int _cursorIndexOfWindDirection = CursorUtil.getColumnIndexOrThrow(_cursor, "windDirection");
+          final int _cursorIndexOfDate = CursorUtil.getColumnIndexOrThrow(_cursor, "date");
+          final int _cursorIndexOfMinTemp = CursorUtil.getColumnIndexOrThrow(_cursor, "minTemp");
+          final int _cursorIndexOfMaxTemp = CursorUtil.getColumnIndexOrThrow(_cursor, "maxTemp");
+          final int _cursorIndexOfTemp = CursorUtil.getColumnIndexOrThrow(_cursor, "temp");
+          final int _cursorIndexOfWindSpeed = CursorUtil.getColumnIndexOrThrow(_cursor, "windSpeed");
+          final int _cursorIndexOfPressure = CursorUtil.getColumnIndexOrThrow(_cursor, "pressure");
+          final int _cursorIndexOfHumidity = CursorUtil.getColumnIndexOrThrow(_cursor, "humidity");
+          final int _cursorIndexOfVisibility = CursorUtil.getColumnIndexOrThrow(_cursor, "visibility");
+          final int _cursorIndexOfPredictability = CursorUtil.getColumnIndexOrThrow(_cursor, "predictability");
+          final int _cursorIndexOfWeatherStateAbbreviation = CursorUtil.getColumnIndexOrThrow(_cursor, "weatherStateAbbreviation");
+          final List<DbForecast> _result = new ArrayList<DbForecast>(_cursor.getCount());
+          while(_cursor.moveToNext()) {
+            final DbForecast _item;
+            final long _tmpId;
+            _tmpId = _cursor.getLong(_cursorIndexOfId);
+            final String _tmpState;
+            if (_cursor.isNull(_cursorIndexOfState)) {
+              _tmpState = null;
+            } else {
+              _tmpState = _cursor.getString(_cursorIndexOfState);
+            }
+            final String _tmpWindDirection;
+            if (_cursor.isNull(_cursorIndexOfWindDirection)) {
+              _tmpWindDirection = null;
+            } else {
+              _tmpWindDirection = _cursor.getString(_cursorIndexOfWindDirection);
+            }
+            final String _tmpDate;
+            if (_cursor.isNull(_cursorIndexOfDate)) {
+              _tmpDate = null;
+            } else {
+              _tmpDate = _cursor.getString(_cursorIndexOfDate);
+            }
+            final double _tmpMinTemp;
+            _tmpMinTemp = _cursor.getDouble(_cursorIndexOfMinTemp);
+            final double _tmpMaxTemp;
+            _tmpMaxTemp = _cursor.getDouble(_cursorIndexOfMaxTemp);
+            final double _tmpTemp;
+            _tmpTemp = _cursor.getDouble(_cursorIndexOfTemp);
+            final double _tmpWindSpeed;
+            _tmpWindSpeed = _cursor.getDouble(_cursorIndexOfWindSpeed);
+            final double _tmpPressure;
+            _tmpPressure = _cursor.getDouble(_cursorIndexOfPressure);
+            final double _tmpHumidity;
+            _tmpHumidity = _cursor.getDouble(_cursorIndexOfHumidity);
+            final double _tmpVisibility;
+            _tmpVisibility = _cursor.getDouble(_cursorIndexOfVisibility);
+            final int _tmpPredictability;
+            _tmpPredictability = _cursor.getInt(_cursorIndexOfPredictability);
+            final String _tmpWeatherStateAbbreviation;
+            if (_cursor.isNull(_cursorIndexOfWeatherStateAbbreviation)) {
+              _tmpWeatherStateAbbreviation = null;
+            } else {
+              _tmpWeatherStateAbbreviation = _cursor.getString(_cursorIndexOfWeatherStateAbbreviation);
+            }
+            _item = new DbForecast(_tmpId,_tmpState,_tmpWindDirection,_tmpDate,_tmpMinTemp,_tmpMaxTemp,_tmpTemp,_tmpWindSpeed,_tmpPressure,_tmpHumidity,_tmpVisibility,_tmpPredictability,_tmpWeatherStateAbbreviation);
+            _result.add(_item);
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+        }
+      }
+
+      @Override
+      protected void finalize() {
+        _statement.release();
+      }
+    });
   }
 
   public static List<Class<?>> getRequiredConverters() {

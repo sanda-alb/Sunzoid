@@ -37,6 +37,8 @@ import com.raywenderlich.android.data.network.mapper.ApiMapper
 import com.raywenderlich.android.domain.model.Location
 import com.raywenderlich.android.domain.repository.WeatherRepository
 import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 
 class WeatherRepositoryImpl(
@@ -70,4 +72,10 @@ class WeatherRepositoryImpl(
       forecastDao.updateForecasts(dbMapper.mapDomainForecastsToDb(locationDetails.forecasts))
     }
   }
+    override fun getForecasts() =
+        forecastDao
+            .getForecasts()
+            .map { dbMapper.mapDbForecastsToDomain(it)
+            }
 }
+

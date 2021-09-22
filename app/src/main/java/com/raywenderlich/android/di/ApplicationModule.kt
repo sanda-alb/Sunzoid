@@ -30,7 +30,6 @@
 
 package com.raywenderlich.android.di
 
-import com.raywenderlich.android.BuildConfig
 import com.raywenderlich.android.data.WeatherRepositoryImpl
 import com.raywenderlich.android.data.db.ForecastDatabase
 import com.raywenderlich.android.data.db.mapper.DbMapper
@@ -74,7 +73,7 @@ val applicationModule = module {
   single {
     val client = OkHttpClient().newBuilder()
 
-    if (BuildConfig.DEBUG) {
+    if (true) {
       client.addInterceptor(get<HttpLoggingInterceptor>())
     }
 
